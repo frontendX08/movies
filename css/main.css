@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Josefin+Sans:ital,wght@1,500&family=Lexend+Deca&family=Livvic:wght@600;700&family=Space+Mono:wght@700&display=swap");
+
+body {
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: 'Arrial' sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.select__bottom {
+    margin-top: 10px;
+}
+
+.button__left {
+    margin-top: 10px;
+}
+
+.content__left {
+    margin-left: 50px;
+    padding-top: 15px;
+}
+
+.content__rigth {
+    margin-left: 100px;
+}
+
+.rigth__images {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.list-group {
+    gap: 20px;
+}
+
+.form-select {
+    margin-top: 20px;
+}
+
+.card-body {
+    width: 100%;
+}
+
+.left__footer {
+    margin-top: -16.5px;
+}
+
+#qizil {
+    background-color: red;
+}
+
+.images__kalendar {
+    display: grid;
+    grid-template-columns: 20px 40px;
+}
+
+.card-text {
+    margin-top: -5px;
+}
+
+.yulduz {
+    width: 20px;
+    height: 20px;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rigth__text {
+    width: 92.7%
+}
+
+#button {
+    background-color: rgb(9, 126, 216);
+    color: white;
+}
+
+
+
+#footer:active {
+    color: blue !important;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenx coders</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .grid__container {
+            display: grid;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .grid__content {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 30% 70%;
+        }
+
+        .images__yulduz {
+          display: grid;
+          grid-template-columns: 20px 30px;
+        }
+
+        .images__text {
+          margin-top: -1px;
+          padding-left: 3px;
+        }
+
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="grid__container">
+        <h1 class="heading">Movies catalog</h1>
+        <div class="grid__content">
+            <div class="content__left">
+                <div class="list-group">
+                    <input type="" class="form-control" placeholder="Normal input">
+                    <input type="number" class="form-control" placeholder="Normal input">
+                </div>
+                  <select class="form-select">
+                    <option><a href="#">1</a></option>
+                    <option><a href="#">2</a></option>
+                    <option><a href="#">3</a></option>
+                    <option><a href="#">4</a></option>
+                  </select>
+                  <select class="form-select select__bottom">
+                    <option><a href="#">1</a></option>
+                    <option><a href="#">2</a></option>
+                    <option><a href="#">3</a></option>
+                    <option><a href="#">4</a></option>
+                  </select>
+                  <button type="button" class="btn btn-primary button__left">Search</button>
+                  <h2 class="left__heading">Bookmarket movies</h2>
+                  <div class="left--footer">
+                    <div class="card mb-3" style="width: 24.5rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Avengers: Infinity War</h5>
+                          <a id="qizil" href="#" class="btn btn-primary">Remove</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="left__footer">
+                    <div class="card mb-3" style="width: 24.5rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">The Avengrs</h5>
+                          <a id="qizil" href="#" class="btn btn-primary">Remove</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="left__footer">
+                    <div class="card mb-3" style="width: 24.5rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">12 Years A Slave</h5>
+                          <a id="qizil" href="#" class="btn btn-primary">Remove</a>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+            <div class="content__rigth">
+                <h2 class="left__heading">Search results: 39</h2>
+                <div class="alert alert-success rigth__text">
+                    <p>Use form on the left to search for a movie</p>
+                </div>
+                <div class="rigth__images">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="./images/Без названия (6).jfif" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">John Doe</h4>
+                          <div class="images__kalendar">
+                            <img src="./images/calendar-week-fill.svg" alt="">
+                            <p class="card-text">2018</p>
+                          </div>
+                          <div class="images__yulduz">
+                            <img class="yulduz" src="./images/star-fill.svg" alt="">
+                            <p class="images__text">8.7</p>
+                          </div>
+                          <a href="https://youtu.be/JIuZeixfTRE?si=MBWnUEpewMe3R9xo" class="btn btn-primary">See Profile</a>
+                          <!-- Button to Open the Modal -->
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                              More info
+                          </button>
+
+                          <!-- The Modal -->
+                          <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h4 class="modal-title">Modal Heading</h4>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                  Modal body..
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <button id="button" type="button" class="btn btn-outline-success">Success</button>
+                        </div>
+                      </div>
+                      <div class="card" style="width:400px">
+                        <img class="card-img-top" src="./images/images (3).jfif" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title">John Doe</h4>
+                          <div class="images__kalendar">
+                            <img src="./images/calendar-week-fill.svg" alt="">
+                            <p class="card-text">2012</p>
+                          </div>
+                          <div class="images__yulduz">
+                            <img class="yulduz" src="./images/star-fill.svg" alt="">
+                            <p class="images__text">8.1</p>
+                          </div>
+                          <a href="https://youtu.be/yVaqpo_HuiE?si=ny-r-JppJSGbY23s" class="btn btn-primary">See Profile</a>
+                          <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                          More info
+                        </button>
+
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+
+                              <!-- Modal Header -->
+                              <div class="modal-header">
+                                <h4 class="modal-title">Modal Heading</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                              </div>
+
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                                Modal body..
+                              </div>
+
+                              <!-- Modal footer -->
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <button id="button" type="button" class="btn btn-outline-success">Success</button>
+                        </div>
+                      </div>
+                    </div>
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="./index.html">1</a></li>
+                  <li class="page-item"><a class="page-link" href="./2.html">2</a></li>
+                  <li class="page-item"><a class="page-link" href="./3.html">3</a></li>
+                  <li class="page-item"><a class="page-link" href="./4.html">4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
